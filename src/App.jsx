@@ -3,6 +3,6 @@ import './App.scss';
 
 export const App = () => (
   <div className="starter">
-    React starter pack
+    Start test Deploy
   </div>
 );
