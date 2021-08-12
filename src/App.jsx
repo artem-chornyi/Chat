@@ -23,7 +23,7 @@ export const App = () => {
       dispatch(addMessage({
         title: value,
         id: 234234,
-        currentTime: `${new Date().getHours()}:${new Date().getMinutes()}`,
+        currentTime: `${new Date().toLocaleTimeString()}`,
       }));
 
       setValue('');
