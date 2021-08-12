@@ -4,20 +4,15 @@ import './App.scss';
 import { useDispatch, useSelector } from 'react-redux';
 import { Input } from './components/Input';
 import { Button } from './components/Button';
-// eslint-disable-next-line no-unused-vars
 import { addMessage, removeMessage } from './redax/chat/chatAction';
 
 export const App = () => {
   const messagess = useSelector(state => state.messag.messages);
 
-  // eslint-disable-next-line no-unused-vars
   const dispatch = useDispatch();
   const [value, setValue] = useState('');
 
-  // eslint-disable-next-line no-unused-vars
   const deleteMessage = (message) => {
-    // eslint-disable-next-line no-console
-    console.log(message);
     dispatch(removeMessage(message));
   };
 
