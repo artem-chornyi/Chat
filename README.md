@@ -1,9 +1,4 @@
-# React Starter Pack
+# Chat :)
+[DEMO LINK](https://artem-chornyi.github.io/Chat/)
 
-To use this template click `Use this template`
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
